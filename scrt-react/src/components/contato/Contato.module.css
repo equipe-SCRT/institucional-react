@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 85%;
+  padding: 2%;
+  margin-top: 4%;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.form-title {
+  margin-bottom: 25px;
+}
+
+.form-title h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0 0 1.25rem 0;
+  color: #051922;
+}
+
+.form-title p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.contact-form form p input[type=text],
+.contact-form form p input[type=tel],
+.contact-form form p input[type=email] {
+  width: 49%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form form p textarea {
+  border: 1px solid #ddd;
+  padding: 15px;
+  height: 200px;
+  border-radius: 3px;
+  width: 100%;
+  resize: none;
+}
+
+.contact-form-wrap {
+  background-color: #FBFBFB;
+  padding: 45px 30px;
+  border-radius: 5px;
+}
+
+.contact-form-box {
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.contact-form-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.contact-form-box h4 i {
+  position: absolute;
+  left: -13%;
+  color: #F28123;
+  top: 2px;
+}
+
+.contact-form-box p {
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+input[type="submit"] {
+  background-color: #F28123;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: none !important;
+  padding: 15px 25px;
+  transition: 0.3s;
+  border-radius: 50px !important;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.left-part {
+  position: relative;
+  width: 68%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0 0 1.25rem 0;
+  color: #051922;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1px;
+  line-height: 1.8;
+  color: #051922;
+  margin: 0 0 1.25rem 0;
+}
+/* 
+.fas {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+} */

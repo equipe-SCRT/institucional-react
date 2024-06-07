@@ -1,0 +1,144 @@
+.section-title h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 2px;
+    background-color: #F28123;
+    margin: 0 auto;
+}
+
+.orange-text {
+    color: #F28123;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 85%;
+    padding: 2%;
+    margin-top: 4%;
+}
+
+.card {
+    width: 22%;
+    height: 400px;
+    -webkit-box-shadow: 0 0 20px #e4e4e4;
+    box-shadow: 0 0 20px #e4e4e4;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+.card {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.card:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.card {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card img {
+    vertical-align: middle;
+    border-style: none;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    padding: 5%;
+}
+
+h2,
+h3 {
+    font-weight: 700;
+    margin: 0 0 1.25rem 0;
+    color: #051922;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+    color: #051922;
+    margin: 0 0 1.25rem 0;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    text-align: center !important;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+}
+
+.description span {
+    display: block;
+    opacity: 0.8;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+
+
+
+@media only screen and (max-width: 767.96px) {
+
+    h2,
+    .h2 {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+    }
+}
+
+@media only screen and (max-width: 575.96px) {
+
+    h2,
+    .h2 {
+        font-size: 2rem;
+        line-height: 2.25rem;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+
+@media only screen and (max-width: 575.96px) {
+
+    h3,
+    .h3 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+}

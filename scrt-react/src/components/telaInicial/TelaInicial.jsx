@@ -1,14 +1,14 @@
 import React from "react";
+import styles from "./TelaInicial.module.css";
 
 const TelaInicial = () => {
     return (
-
-        <div className="container">
-            <div className="titulo-principal">
-                <h1>SCRT</h1>
-            </div>
-            <div className="texto-principal"> 
-                <p>
+       
+        <div className={styles["about-container"]}>
+            <div className={styles["nav-bar"]}></div>
+            <h1 className={styles["titulo-principal"]}>SCRT</h1>
+            <div className={styles["texto-container"]}>
+                <p className={styles["texto-principal"]}>
                     Na SCRT, desenvolvemos software de ponta projetado especificamente para abordar os
                     desafios da fome e da insegurança alimentar. Desde plataformas de gerenciamento de
                     doações até aplicativos de rastreamento de alimentos, nossas soluções são projetadas
@@ -16,9 +16,9 @@ const TelaInicial = () => {
                 </p>
             </div>
 
-            <div className="container-button">
-                <button>Entre em contato!</button>
-                <button>Saiba mais</button>
+            <div>
+                <button className={styles["about-button"]}>Entre em contato!</button>
+                <button className={styles["about-button"]}>Saiba mais</button>
             </div>
         </div>
 

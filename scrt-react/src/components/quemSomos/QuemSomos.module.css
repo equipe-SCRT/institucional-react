@@ -1,0 +1,69 @@
+.topico-assunto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 3.5rem;
+}
+
+.topico-assunto p {
+    color: #051922;
+    align-items: center;
+}
+
+.topico-assunto span {
+    color: #F28123;
+
+}
+
+.container-quem-somos {
+    display: flex;
+    justify-content: center;
+    font-size: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.text-container {
+   width: 85%;
+   font-size: 1.3rem;
+    
+}
+
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container-icones{
+    height: 150px;
+    display: flex;
+    background-color: #e8e8e8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.box-icon {
+    display: flex;
+    margin: 25px;
+}
+
+.box-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,54 @@
+.topico-assunto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.topico-assunto p {
+    color: #051922;
+    align-items: center;
+
+}
+
+.topico-assunto span {
+    color: #F28123;
+
+}
+
+.container-card {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.text-missoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 20rem;
+    text-align: center;
+    background-color: #e8e8e8;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 5%;
+
+}
+
+
+.icon{
+    width: 60px;
+    height: 60px;
+    margin-top: 10%;
+}
+
+.text-missoes span {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

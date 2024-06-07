@@ -13,12 +13,12 @@ const Home = () => {
     return (
         <>
         <NavBar logoInicio={logo} />
-        <TelaInicial />
+        <TelaInicial/>
         <QuemSomos />
         <Missoes />
-        <ComoFunciona />
+        {/*<ComoFunciona />
         <PerguntasFrequentes />
-        <Contato />
+        <Contato />  */}
         </>
     )
 }

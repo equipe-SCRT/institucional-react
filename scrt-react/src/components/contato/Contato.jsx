@@ -15,12 +15,16 @@ const Contato = () => {
                     <div className={styles["contact-form"]}>
                         <form type="POST">
                             <p>
-                                <input type="text" placeholder="Nome" name="name" id="name" />
-                                <input type="email" placeholder="E-mail" name="email" id="email" />
+                                <div className={styles["input-row"]}>
+                                    <input type="text" placeholder="Nome" name="name" id="name" />
+                                    <input type="email" placeholder="E-mail" name="email" id="email" />
+                                </div>
                             </p>
                             <p>
-                                <input type="tel" placeholder="Telefone" name="phone" id="phone" />
-                                <input type="text" placeholder="Assunto" name="subject" id="subject" />
+                                <div className={styles["input-row"]}>
+                                    <input type="tel" placeholder="Telefone" name="phone" id="phone" />
+                                    <input type="text" placeholder="Assunto" name="subject" id="subject" />
+                                </div>
                             </p>
                             <p><textarea name="message" id="message" cols="30" rows="10"
                                 placeholder="Mensagem"></textarea></p>

@@ -2,9 +2,10 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 3rem;
     position: relative;
     padding-bottom: 15px;
+    padding-top: 5rem;
 }
 
 .section-title h2::after {

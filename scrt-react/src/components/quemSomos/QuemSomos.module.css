@@ -1,0 +1,77 @@
+
+.orange-text {
+    color: #F28123;
+}
+
+.section-title h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 5rem;
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 2px;
+    background-color: #F28123;
+    margin: 0 auto;
+}
+
+.container-quem-somos {
+    display: flex;
+    justify-content: center;
+    font-size: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.text-container {
+   width: 85%;
+   font-size: 1.3rem;
+    
+}
+
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container-icones{
+    height: 150px;
+    display: flex;
+    background-color: #e8e8e8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.box-icon {
+    display: flex;
+    margin: 25px;
+}
+
+.box-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+
+
+
+

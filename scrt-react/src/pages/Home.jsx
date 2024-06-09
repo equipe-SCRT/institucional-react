@@ -8,6 +8,7 @@ import Missoes from "../components/missoes/Missoes";
 import ComoFunciona from "../components/comoFunciona/ComoFunciona";
 import PerguntasFrequentes from "../components/perguntasFrequentes/PerguntasFrequentes";
 import Contato from "../components/contato/Contato";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
         <ComoFunciona />
         <PerguntasFrequentes />
         <Contato />
+        <Footer />
         </>
     )
 }

@@ -1,0 +1,22 @@
+.copyright {
+    display: flex;
+    margin-top: 8%;
+    background-color: #051922;
+    justify-content: end;
+}
+
+.social-icons {
+    margin-right: 100%;
+}
+
+.social-icons ul li a {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+    padding: 0px 10px;
+    display: block;
+}
+
+li a img {
+    width: 15px;
+}

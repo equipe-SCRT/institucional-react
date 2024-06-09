@@ -15,6 +15,11 @@
   margin-left: -15px;
 }
 
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .form-title {
   margin-bottom: 25px;
 }
@@ -25,6 +30,7 @@
   margin: 0 0 1.25rem 0;
   color: #051922;
   text-align: left;
+  font-size: 1.85rem;
 }
 
 .form-title p {
@@ -116,12 +122,3 @@ p {
   color: #051922;
   margin: 0 0 1.25rem 0;
 }
-/* 
-.fas {
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-} */

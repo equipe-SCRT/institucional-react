@@ -68,11 +68,12 @@
 .card img {
     vertical-align: middle;
     border-style: none;
+    margin-left: 10%;
     width: 80%;
     border-radius: 5px;
     margin-bottom: 20px;
     transition: 0.3s;
-    padding: 5%;
+    padding: 2%;
 }
 
 h2,
